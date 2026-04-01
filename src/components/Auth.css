@@ -1,0 +1,125 @@
+.auth-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e1e1e 0%, #2d2d2d 100%);
+  padding: 2rem;
+}
+
+.auth-card {
+  background: #252525;
+  border-radius: 12px;
+  padding: 3rem;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  color: #cccccc;
+}
+
+.auth-card h1 {
+  margin: 0 0 0.5rem 0;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.subtitle {
+  margin: 0 0 2rem 0;
+  color: #888888;
+  font-size: 0.9rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #cccccc;
+  font-weight: 500;
+}
+
+.token-input {
+  width: 100%;
+  padding: 0.75rem;
+  background: #1e1e1e;
+  border: 1px solid #3e3e3e;
+  border-radius: 6px;
+  color: #ffffff;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+}
+
+.token-input:focus {
+  outline: none;
+  border-color: #007acc;
+}
+
+.error-message {
+  margin-top: 0.5rem;
+  color: #f48771;
+  font-size: 0.85rem;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 0.875rem;
+  background: #007acc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.auth-button:hover {
+  background: #005a9e;
+}
+
+.instructions {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #3e3e3e;
+}
+
+.instructions h3 {
+  margin: 0 0 1rem 0;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.instructions ol {
+  margin: 0 0 1rem 1.5rem;
+  padding: 0;
+  color: #aaaaaa;
+  font-size: 0.9rem;
+}
+
+.instructions ol li {
+  margin-bottom: 0.5rem;
+}
+
+.instructions code {
+  background: #1e1e1e;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  color: #ce9178;
+  font-size: 0.85rem;
+}
+
+.note {
+  margin: 0;
+  padding: 0.75rem;
+  background: #1e1e1e;
+  border-left: 3px solid #007acc;
+  border-radius: 4px;
+  color: #aaaaaa;
+  font-size: 0.85rem;
+}
+
+.note strong {
+  color: #cccccc;
+}

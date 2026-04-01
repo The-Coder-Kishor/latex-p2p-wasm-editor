@@ -1,0 +1,41 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 300px;
+  background-color: #1e1e1e;
+  color: #cccccc;
+  overflow-y: auto;
+  border-right: 1px solid #333;
+}
+
+.editor-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1e1e;
+}
+
+.placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #cccccc;
+  text-align: center;
+  padding: 2rem;
+}
+
+.placeholder h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.placeholder p {
+  color: #888;
+}

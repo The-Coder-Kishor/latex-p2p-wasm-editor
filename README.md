@@ -133,17 +133,10 @@ The "glue logic" between GitHub and P2P:
 - [ ] Chat functionality
 - [ ] Video/voice communication
 
-## 🤝 Contributing
-
-This is an IIIT B.Tech academic project. Contributions, suggestions, and feedback are welcome!
 
 ## 📄 License
 
 MIT License - Feel free to use this project for learning and development.
-
-## 👥 Authors
-
-IIIT B.Tech Students
 
 ---
 

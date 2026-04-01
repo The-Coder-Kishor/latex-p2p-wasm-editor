@@ -1,4 +1,4 @@
-# P2P Git Editor - IIIT B.Tech Project
+# P2P Git Editor
 
 A peer-to-peer collaborative code editor with GitHub integration, built using React, Yjs, WebRTC, and Monaco Editor.
 
